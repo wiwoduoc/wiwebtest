@@ -9,10 +9,28 @@ h4{
 
 a{
     color:red;
+    display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: flex-start;
 }
 
 #Sorpresa{
     color: black;
    
+}
+
+img{
+    /* height alto */
+    /* width ancho */
+    height:200px; 
+    width:130px;
+}
+
+.contenedor{
+ border: solid red;
+ display: flex;
+ justify-content: center;
+ /* alinear al centro */
+ align-items: center;
+ /* (margen)padding: 20px; */
 }
